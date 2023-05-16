@@ -30,3 +30,43 @@ To connect the smart contract with the client side, we are basically used web3.j
 
 5. Donation Page, Here any one can donate ether
 ![2023-05-16 (5)](https://github.com/metaphor07/corwed-funding/assets/93358507/a79c8262-59d1-4948-94e1-d69badedc37d)
+
+
+
+>To run the Decentralize Crowed Funding final project locally, follow these steps:
+
+Clone the repository:
+git clone https://github.com/metaphor07/crowed-funding.git
+
+
+Navigate to the client directory:
+cd client
+
+
+Install the required dependencies:
+npm install
+
+
+To run the application:
+npm run dev
+
+
+Open your browser and visit http://localhost:5173 to access the Decentralize Portfolio final application.
+
+Note: For the final project, make sure to click on the "Connect Metamask" button and use the Goerli testnet network for interacting with the decentralized application.
+
+
+#Acknowledgements
+>Decentralize Portfolio is built using the following technologies:
+
+Solidity - The smart contract programming language for Ethereum.
+
+React - A JavaScript library for building user interfaces.
+
+Hardhat - Development environment for Ethereum smart contracts.
+
+IPFS - Decentralized storage for portfolio data.
+
+Web3.js - JavaScript library for interacting with Ethereum.
+
+Metamask
