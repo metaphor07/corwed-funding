@@ -43,13 +43,14 @@ export const StateContextProvider = ({ children }) => {
   // let web3 = null;
   // let contract = null;
   const connect = async () => {
+    console.log("in side in ");
     try {
       const web3 = new Web3(window.ethereum);
       await window.ethereum.request({ method: "eth_requestAccounts" });
 
       const contract = new web3.eth.Contract(
         ABI,
-        "0x23538142683875a717a18809C0Af896E2B6BB92C" //contract address which we get after deploy the contract on the test net
+        "0x6D7038d65c6B7a19Eb7A2EF789AcCf287B76c831" //contract address which we get after deploy the contract on the test net
       );
       console.log(web3, contract);
       initialState.web3 = web3;

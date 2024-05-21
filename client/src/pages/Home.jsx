@@ -31,7 +31,7 @@ const Home = () => {
     contract && allCampaigns();
   }, [contract]);
 
-  console.log(campaigns);
+  console.log("camp ", campaigns);
   return (
     <DisplayCampaigns
       title="All Campaigns"

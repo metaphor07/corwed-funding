@@ -29,7 +29,7 @@ const Navbar = () => {
 
       const contract = new web3.eth.Contract(
         ABI,
-        "0x23538142683875a717a18809C0Af896E2B6BB92C" //contract address which we get after deploy the contract on the test net
+        "0x6D7038d65c6B7a19Eb7A2EF789AcCf287B76c831" //contract address which we get after deploy the contract on the test net
       );
       dispatch(connectSuccess({ web3: web3, contract: contract }));
     } catch (error) {
